@@ -9,8 +9,6 @@ import { Toaster } from "react-hot-toast";
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
     <ClerkProvider {...pageProps}>
-      {/* When you throw head info(tag?) in this file it will be the default */}
-      {/* If otherfiles have head it will override this, or vis versa idk yet */}
       <Head>
         <title>Chirp</title>
         <meta name="description" content="💭" />
